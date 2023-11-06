@@ -1,5 +1,5 @@
 pipeline {
- agent none
+ agent {main}
  stages {
   stage('Git') {
    steps {git 'https://github.com/AntonKurapov66/sdvps-materials.git'}
